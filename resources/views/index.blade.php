@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="{{ url('./vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="{{ url('./vendor/font-awesome/css/font-awesome.min.css') }}" type="text/css">
-    <!-- Js -->
-    <script src="{{ url('./js/app.js') }}"></script>
+
     <!-- Custom css - Các file css do chúng ta tự viết -->
     <link rel="stylesheet" href="{{ url('./css/app.css') }}" type="text/css">
 </head>
@@ -219,7 +218,8 @@
     <script src="{{ url('./vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 
     <!-- Custom script - Các file js do mình tự viết -->
-    <script src="{{ url('./assets/js/app.js') }}"></script>
+    <!-- Js -->
+    <script src="{{ url('./js/app.js') }}"></script>
 
 </body>
 

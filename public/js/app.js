@@ -14,7 +14,7 @@ function test(){
 		"width": activeWidthNewAnimWidth + "px"
 	});
 	$("#navbarSupportedContent").on("click","li",function(e){
-		$('#navbarSupportedContent ul li').removeClass("active");
+		$('#navbarSupportedContent ul li').removeClass('active');
 		$(this).addClass('active');
 		var activeWidthNewAnimHeight = $(this).innerHeight();
 		var activeWidthNewAnimWidth = $(this).innerWidth();
