@@ -15,8 +15,7 @@ function test(){
 	});
 	$("#navbarSupportedContent").on("click","li",function(e){
 
-		// $('#navbarSupportedContent ul li').removeClass("active");
-
+		
 		$('#navbarSupportedContent ul li').removeClass('active');
 
 		$(this).addClass('active');

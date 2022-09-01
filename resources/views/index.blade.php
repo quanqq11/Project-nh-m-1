@@ -5,19 +5,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Nền tảng - Kiến thức cơ bản về WEB | Bảng tin</title>
-
+    <title>Tiny Shop| Chuyên đồ điện tử</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ url('./vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="{{ url('./vendor/font-awesome/css/font-awesome.min.css') }}" type="text/css">
 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Custom css - Các file css do chúng ta tự viết -->
     <link rel="stylesheet" href="{{ url('./css/app.css') }}" type="text/css">
 </head>
 
 <body>
+
     <!-- header -->
 
     <nav class="navbar navbar-expand-custom navbar-mainbg bg-dark">
@@ -30,11 +32,14 @@
                         name="keyword_tensanpham">
                     <button class="btn btn-success my-2 my-sm-0 mx-0 rounded-right" type="submit"><i class=" fas fa-thin fa-magnifying-glass"></i></button>
         </form>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
                 <li class="nav-item">
+
 
                     <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Sản phẩm</a>
                 </li>
@@ -51,9 +56,6 @@
         </div>
     </nav>
     <!-- end header -->
-
-
-
     <main role="main">
         <!-- Carousel - Slider -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -104,19 +106,19 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        src="{{ url('./img/icon/icon-1.png') }}">
+                         src="{{ url('./img/icon/icon-1.png') }}">
                     <h2>Đặt hàng</h2>
                     <p>Chọn sản phẩm bạn yêu thích, và Đặt hàng.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        src="{{ url('./img/icon/icon-2.png') }}">
+                         src="{{ url('./img/icon/icon-2.png') }}">
                     <h2>Tạo đơn hàng</h2>
                     <p>Theo dõi đơn hàng của bạn.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        src="{{ url('./img/icon/icon-3.png') }}">
+                         src="{{ url('./img/icon/icon-3.png') }}">
                     <h2>Giao hàng</h2>
                     <p>Giao hàng tận nơi.</p>
                 </div><!-- /.col-lg-4 -->
@@ -172,7 +174,7 @@
                         <div class="card mb-4 shadow-sm">
                             <a href="pages/product-detail.html">
                                 <img class="bd-placeholder-img card-img-top" width="100%" height="350"
-                                    src="{{ url('./img/product/samsung-s3.webp') }}">
+                                     src="{{ url('./img/product/samsung-s3.webp') }}">
                             </a>
                             <div class="card-body">
                                 <a href="pages/product-detail.html">
@@ -183,7 +185,7 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a class="btn btn-sm btn-outline-secondary"
-                                            href="pages/product-detail.html">Xem chi tiết</a>
+                                           href="pages/product-detail.html">Xem chi tiết</a>
                                     </div>
                                     <small class="text-muted text-right">
                                         <s>12,600,000.00</s>
@@ -194,7 +196,7 @@
                         </div>
                     </div>
 
-                </div>   
+                </div>
             </div>
         </div>
 
@@ -221,14 +223,10 @@
     <script src="{{ url('./vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 
     <!-- Custom script - Các file js do mình tự viết -->
-<<<<<<< HEAD
     <script src="{{ url('./js/app.js') }}"></script>
-    
-=======
     <!-- Js -->
     <script src="{{ url('./js/app.js') }}"></script>
 
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
 </body>
 
 </html>
