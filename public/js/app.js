@@ -14,11 +14,11 @@ function test(){
 		"width": activeWidthNewAnimWidth + "px"
 	});
 	$("#navbarSupportedContent").on("click","li",function(e){
-<<<<<<< HEAD
-		$('#navbarSupportedContent ul li').removeClass("active");
-=======
+
+		// $('#navbarSupportedContent ul li').removeClass("active");
+
 		$('#navbarSupportedContent ul li').removeClass('active');
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
+
 		$(this).addClass('active');
 		var activeWidthNewAnimHeight = $(this).innerHeight();
 		var activeWidthNewAnimWidth = $(this).innerWidth();

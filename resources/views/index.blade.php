@@ -11,19 +11,15 @@
     <link rel="stylesheet" href="{{ url('./vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="{{ url('./vendor/font-awesome/css/font-awesome.min.css') }}" type="text/css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-=======
 
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom css - Các file css do chúng ta tự viết -->
     <link rel="stylesheet" href="{{ url('./css/app.css') }}" type="text/css">
 </head>
 
 <body>
     <!-- header -->
-<<<<<<< HEAD
+
     <nav class="navbar navbar-expand-custom navbar-mainbg bg-dark">
         <a class="navbar-brand navbar-logo" href="#">Trang chủ</a>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,47 +30,22 @@
                         name="keyword_tensanpham">
                     <button class="btn btn-success my-2 my-sm-0 mx-0 rounded-right" type="submit"><i class=" fas fa-thin fa-magnifying-glass"></i></button>
         </form>
-=======
-    <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars text-white"></i>
-        </button>
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
                 <li class="nav-item">
-<<<<<<< HEAD
+
                     <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Sản phẩm</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Liên hệ</a>
-=======
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
-                </li>
-                <li class="nav-item">
-<<<<<<< HEAD
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Giỏ hàng</a>
+                    <a class="nav-link" href="javascript:void(0);"><i class=" fas fa-light fa-cart-shopping"></i>Giỏ hàng</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Đăng nhập</a>
-=======
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
->>>>>>> 0181047a971f83579d44536327046c1e4d523cc3
                 </li>
             </ul>
         </div>
