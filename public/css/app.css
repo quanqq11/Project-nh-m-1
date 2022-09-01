@@ -171,12 +171,14 @@ i {
 #navbarSupportedContent .active>a:not(:only-child):after {
 	transform: rotate(90deg);
 }
+
 .form-control{
 	border-radius: 4px 0 0 4px !important;
 }
 .btn {
 	border-radius: 0 4px 4px 0 !important;
 }
+
 .hori-selector{
 	display:inline-block;
 	position:absolute;
